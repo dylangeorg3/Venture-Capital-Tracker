@@ -4,7 +4,10 @@
     - GUI (not just in terminal)
     - Save data to onedrive for use across multiple computers, or web based? weigh up pros and cons
         - Web based is not a good idea (I'm not a cybersecurity expert)
-    - 
+    - Use Firebase to store data 
+    - Have different users to require log in
+    - Keep somewhat safe from SQL injections and cybersecurity issues
+        - NEED TO CHANGE ALLOWED HOSTS FOR PRODUCTION
 
 
 - Features
@@ -13,6 +16,7 @@
     - track current value of company
     - different sections for current portfolio vs companies being scouted
     - produce risk metrics and confidence metrics for each company
+    - Auomated, customisable reports
     - Home page
         - Show main metrics
             - Current portfolio

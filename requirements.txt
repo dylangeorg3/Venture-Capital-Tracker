@@ -1,39 +1,48 @@
 # Dependencies
-django
+# Make sure Django is installed (if not, install with `pip install django`).
 
-# To start the Django project (you only need to do this once to create a new project)
+# To start a new Django project (you only need to do this once to create a new project):
 django-admin startproject mysite
 
-# To run the Django server locally
+# To run the Django server locally on the default port (8000):
 python3 manage.py runserver
 
     # Open in browser on the same machine (local only):
-    http://127.0.0.1:8000/
-    http://localhost:8000/
+    # http://127.0.0.1:8000/ or http://localhost:8000/
 
-    # Open in browser on another device on the same Wi-Fi (using Dylan's local network IP):
-    http://192.168.0.210:8000/
-
-    # Using Side Stage Ventures IP:
-    # http://INSERT_IP_HERE:8000/
-
+    # Open in browser on another device on the same Wi-Fi network by replacing with your local IP:
+    # http://192.168.0.210:8000/ (replace with your actual local IP)
 #
 
 
 
-# To make the Django server accessible on all network interfaces (e.g., for other devices on the same network)
+# To make the Django server accessible on all network interfaces (e.g., for other devices on the same network):
 python3 manage.py runserver 0.0.0.0:8000
 
-    # Open in browser on the same machine (local only):
-    http://127.0.0.1:8000/
+    # Open in browser on the same machine:
+    # http://127.0.0.1:8000/
 
-    # Open in browser on another device on the same Wi-Fi:
-    http://192.168.0.210:8000/
-
+    # Open in browser on another device on the same Wi-Fi network:
+    # http://192.168.0.210:8000/ (replace with your actual local IP)
 #
 
+
+
+# Running on a public server using Ngrok
+# To make the server accessible over the internet, follow these steps:
+
+# 1. Run Django on port 8080:
+python3 manage.py runserver 8080
+
+# 2. Start Ngrok to create a public URL for your server:
+ngrok http 8080
+
+    # This will provide a public URL, such as:
+    # https://2544-203-30-15-91.ngrok-free.app
+    # Share this link to allow others to access your Django app from anywhere.
+#
 
 
 
 ## Django Documentation (Recommended Reading)
-https://docs.djangoproject.com/en/5.1/
+https://docs.djangoproject.com/en/stable/
