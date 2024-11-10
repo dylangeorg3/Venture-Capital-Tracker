@@ -3,6 +3,7 @@
 - Requirements
     - GUI (not just in terminal)
     - Save data to onedrive for use across multiple computers, or web based? weigh up pros and cons
+        - Web based is not a good idea (I'm not a cybersecurity expert)
     - 
 
 
