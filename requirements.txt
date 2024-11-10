@@ -1,3 +1,13 @@
-django
 
+# Dependencies
+django
 django-admin startproject mysite
+
+# To run
+python3 manage.py runserver
+
+# Run in browser
+http://127.0.0.1:8000/
+
+## Django Documentation (To Read)
+https://docs.djangoproject.com/en/5.1/
