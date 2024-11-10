@@ -1,0 +1,54 @@
+- Develop a software with a nice GUI that can keep track of early stage investments
+
+- Requirements
+    - GUI (not just in terminal)
+    - Save data to onedrive for use across multiple computers, or web based? weigh up pros and cons
+    - 
+
+
+- Features
+    - create company
+    - add and change data of company
+    - track current value of company
+    - different sections for current portfolio vs companies being scouted
+    - produce risk metrics and confidence metrics for each company
+    - Home page
+        - Show main metrics
+            - Current portfolio
+        - Options for different screens
+
+    - Track financial for next round
+
+
+
+- Metrics
+    - Qualitative
+        - KPIs
+        - Confidence ratings
+        - Team strength & experience
+        - Scalability
+        - Risk???
+        - Sentiment
+    - Quantitative 
+        - Revenue growth rate
+        - Gross profit margin
+        - Net profit margin
+        - Burn rate
+        - Market size
+        - Valuation (Pandas API etc)
+        - Revenue (XERO API)
+
+
+
+- Agile Development Plan
+    - Stage 1 (Early Development):
+        - Get very basic working GUI
+        - Set up basic functionality for metrics
+    - Stage 2:
+        - 
+
+
+    - Later improvements
+        - Machine learning algorithm trained on previous data to make predictions
+        - Improve GUI aesthetics 
+        - Extra detail for each company: upload employee photos, contact details, etc
