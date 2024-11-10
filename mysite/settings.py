@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-2qw1jwf(&)9u!)0&o9fg@18blqhkznofn=d)(+&v5_3^f)-bau'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+# Local Host, Local Network, and All Hosts
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '192.168.0.210', '*']
 
 
 # Application definition
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'myapp/templates/myapp'], 
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

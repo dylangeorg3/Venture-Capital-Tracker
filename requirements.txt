@@ -1,13 +1,39 @@
-
 # Dependencies
 django
+
+# To start the Django project (you only need to do this once to create a new project)
 django-admin startproject mysite
 
-# To run
+# To run the Django server locally
 python3 manage.py runserver
 
-# Run in browser
-http://127.0.0.1:8000/
+    # Open in browser on the same machine (local only):
+    http://127.0.0.1:8000/
+    http://localhost:8000/
 
-## Django Documentation (To Read)
+    # Open in browser on another device on the same Wi-Fi (using Dylan's local network IP):
+    http://192.168.0.210:8000/
+
+    # Using Side Stage Ventures IP:
+    # http://INSERT_IP_HERE:8000/
+
+#
+
+
+
+# To make the Django server accessible on all network interfaces (e.g., for other devices on the same network)
+python3 manage.py runserver 0.0.0.0:8000
+
+    # Open in browser on the same machine (local only):
+    http://127.0.0.1:8000/
+
+    # Open in browser on another device on the same Wi-Fi:
+    http://192.168.0.210:8000/
+
+#
+
+
+
+
+## Django Documentation (Recommended Reading)
 https://docs.djangoproject.com/en/5.1/
