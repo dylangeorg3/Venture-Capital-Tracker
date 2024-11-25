@@ -8,6 +8,7 @@
     - Have different users to require log in
     - Keep somewhat safe from SQL injections and cybersecurity issues
         - NEED TO CHANGE ALLOWED HOSTS FOR PRODUCTION
+    - ALSO USE MIDDLEWARE AND NGROK TO TRACK IP ADDRESSES OF USERS
 
 
 - Features
@@ -23,6 +24,7 @@
         - Options for different screens
 
     - Track financial for next round
+    - ADD CHAT GPT API
 
 
 
