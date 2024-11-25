@@ -1,7 +1,7 @@
 # Venture Capital Seed Tracker 💸📈
 
 
-A software project in partnership with Side Stage Ventures.
+A software project
 
 ---
 
